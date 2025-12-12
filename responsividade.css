@@ -1,0 +1,16 @@
+.d1, .d2{
+    border: 1px solid;
+    margin: 8px;
+    padding: 8px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+@media screen and (max-width:390px) {
+    .container{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}

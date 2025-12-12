@@ -1,0 +1,12 @@
+:root{
+    --text-color: #000;
+    --text-title: #00d;
+    --text-sub-title: #0dd;
+    --size-text: 16px;
+    --size-title: 32px
+}
+
+p{
+    color: var(--text-color);
+    font-size: var(--size-title);
+}
